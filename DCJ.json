@@ -1,0 +1,458 @@
+{
+  "Last updated": "2024.09.28",
+  "Client Version": "1.1 2024-09-28 11:06:23",
+  "Ambience": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Time": 20000.0,
+    "TimeSpeed": 0.0,
+    "Weather": "Clear"
+  },
+  "Animation": {
+    "State": true,
+    "KeyBind": "NONE",
+    "BlockAnimation": "Extend",
+    "FakeNoSwing": false,
+    "SwingAnimation": true,
+    "SwingSpeed": -49.0
+  },
+  "AntiAFK": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Delay": 500.0
+  },
+  "AntiBot": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Shop": true,
+    "Shop-NameDetect": false,
+    "Shop-NoArmorDetect": false,
+    "Matrix": false
+  },
+  "AntiCheat": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Combat": true,
+    "NoSlow": true,
+    "Speed": true,
+    "GroundSpoof": true
+  },
+  "ArmorBreaker": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Debug": true,
+    "Switch": true
+  },
+  "AutoHeal": {
+    "State": true,
+    "KeyBind": "NONE",
+    "AutoGapple": true,
+    "AutoGapple-MinHeal": 10.0,
+    "AutoGapple-Delay": 1000.0
+  },
+  "AutoPlay": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Mode": "DCJ",
+    "DCJ-Mode": "OnlySword",
+    "HuaYuTing-SkyWars": true,
+    "HuaYuTing-BedWars": true,
+    "NextGameDelay": 3.0,
+    "Tip": true
+  },
+  "AutoTool": {
+    "State": true,
+    "KeyBind": "NONE",
+    "SwitchToOriginalSlot": true
+  },
+  "BalanceTimer": {
+    "State": false,
+    "KeyBind": "NONE",
+    "TimerSpeed": 1.0
+  },
+  "BedAura": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Range": 3.0,
+    "BreakMode": "Normal",
+    "Swing": true,
+    "Rotation": true
+  },
+  "Blink": {
+    "State": false,
+    "KeyBind": "B",
+    "NoC00-C16": false,
+    "SpawnBlinkEntity": false,
+    "SendC0F": false,
+    "RenderPacketsAmount": true,
+    "RenderLine": true,
+    "ReleaseC03": false
+  },
+  "Chams": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Item": true,
+    "Chest": true
+  },
+  "ClickGUI": {
+    "State": false,
+    "KeyBind": "RSHIFT"
+  },
+  "ContainerAura": {
+    "State": false,
+    "KeyBind": "U",
+    "Range": 6.0,
+    "Chest": true,
+    "Furnace": true,
+    "BrewingStand": true,
+    "PlaceBlockAfterStealingChest": true,
+    "BlockESP": true,
+    "Rotation": true,
+    "MoveFix": true
+  },
+  "ContainerStealer": {
+    "State": false,
+    "KeyBind": "U",
+    "Delay": 0.0,
+    "Chest": true,
+    "Furnace": true,
+    "BrewingStand": true,
+    "Pre": false,
+    "Silent": true,
+    "SendC0F": false
+  },
+  "Criticals": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Mode": "LowJump",
+    "LowJump-Motion": 0.1
+  },
+  "DCJPitBot": {
+    "State": false,
+    "KeyBind": "Y"
+  },
+  "Disabler": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Grim": false,
+    "OldGrim-Post": false,
+    "NewGrim-Post": false,
+    "Grim-BadPacketsA": false,
+    "Grim-BadPacketsF": false,
+    "Grim-FakePing": false,
+    "Vulcan": false,
+    "Vulcan-Sprint": false
+  },
+  "ESP": {
+    "State": true,
+    "KeyBind": "NONE"
+  },
+  "FastBow": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Packets": 20.0,
+    "Delay": 0.0
+  },
+  "FastLadder": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Warn": true,
+    "C07Down": false,
+    "Motion": 0.1768
+  },
+  "FastPlace": {
+    "State": true,
+    "KeyBind": "NONE",
+    "OnlyBlock": true,
+    "Speed": 0.0
+  },
+  "FastUse": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Mode": "Instant"
+  },
+  "FlagDetection": {
+    "State": true,
+    "KeyBind": "NONE"
+  },
+  "Fly": {
+    "State": false,
+    "KeyBind": "F",
+    "Mode": "Vanilla",
+    "VanillaSpeed": 0.4,
+    "Matrix-Mode": "AirJump",
+    "Matrix-MaxJumpsCount": 5.0,
+    "Matrix-Speed": 1.84,
+    "Matrix-MotionY": 9.64,
+    "Matrix-Ticks": 20.0,
+    "Matrix-HurtTime": 8.0,
+    "VanillaKickBypass": false
+  },
+  "FPSBoost": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Particle": true,
+    "ArmorStand": false
+  },
+  "FullBright": {
+    "State": true,
+    "KeyBind": "NONE"
+  },
+  "GuiMove": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Mode": "Vanilla"
+  },
+  "HighJump": {
+    "State": false,
+    "KeyBind": "H",
+    "Mode": "DCJ",
+    "DCJ-Height": 5.0
+  },
+  "HitEffect": {
+    "State": false,
+    "KeyBind": "NONE",
+    "HitSound": true,
+    "HitSoundFrequency": 1.0
+  },
+  "HUD": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Notification": true,
+    "ModuleList": true,
+    "ModuleList-FontShadow": true,
+    "ModuleList-NoRenderModule": true,
+    "ModuleList-Background": true,
+    "ModuleList-BackgroundAlpha": 40.0,
+    "ModuleList-X-Offset": 0.0,
+    "ModuleList-YOffset": 0.0,
+    "ModuleList-Color": "Rainbow",
+    "ModuleList-Red": 255.0,
+    "ModuleList-Green": 255.0,
+    "ModuleList-Blue": 255.0,
+    "WaterMark": true,
+    "WaterMark-Mode": "Normal",
+    "TargetHUD": true,
+    "TargetHUD-DisplaysWinInformation": true,
+    "ToggleSound": "Custom",
+    "PotionHUD": true
+  },
+  "IGC": {
+    "State": false,
+    "KeyBind": "NONE"
+  },
+  "InventoryManager": {
+    "State": false,
+    "KeyBind": "I",
+    "Delay": 0.0,
+    "Slot 1": "Sword",
+    "Slot 2": "GoldenApple",
+    "Slot 3": "Block",
+    "Slot 4": "Pickaxe",
+    "Slot 5": "Axe",
+    "Slot 6": "Shovel",
+    "Slot 7": "EnderPearl",
+    "Slot 8": "WaterBucket",
+    "Slot 9": "Food"
+  },
+  "InventorySync": {
+    "State": true,
+    "KeyBind": "NONE"
+  },
+  "ItemPhysics": {
+    "State": true,
+    "KeyBind": "NONE"
+  },
+  "KeepSprint": {
+    "State": true,
+    "KeyBind": "NONE"
+  },
+  "KeyBindManager": {
+    "State": false,
+    "KeyBind": "RCONTROL"
+  },
+  "KillAura": {
+    "State": false,
+    "KeyBind": "R",
+    "TargetMode": "Switch",
+    "SwitchDelayRange": 1.0,
+    "AttackRange": 8.0,
+    "BlockRange": 10.0,
+    "AttackDelay": 1.0,
+    "AttackTiming": "HvH",
+    "SortMode": "Distance",
+    "AutoBlock": true,
+    "AutoBlockMode": "PressKey",
+    "RotationMode": "None",
+    "SmoothRotationSpeed": 10.0,
+    "RandomRotationOffset": true,
+    "MoveFix": "None",
+    "MoveFix-Look": false,
+    "Circle": true,
+    "Circle-Accuracy": 30.0
+  },
+  "LongJump": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Mode": "Matrix",
+    "Matrix-Boost": 1.95,
+    "Matrix-Height": 0.42,
+    "Matrix-Silent": true,
+    "Matrix-BypassMode": "Motion"
+  },
+  "MotionBlur": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Amount": 1.0
+  },
+  "NoFall": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Mode": "GroundSpoof"
+  },
+  "NoFluid": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Water": true,
+    "Lava": true
+  },
+  "NoHurtCamera": {
+    "State": true,
+    "KeyBind": "NONE"
+  },
+  "NoSlow": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Mode": "Vanilla",
+    "SwordSpeed": 1.0,
+    "FoodSpeed": 1.0,
+    "PotionSpeed": 1.0,
+    "BowSpeed": 1.0,
+    "AntiSwitchItem": false,
+    "AutoJump": false
+  },
+  "NoWeb": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Mode": "Vanilla"
+  },
+  "PlayerTracker": {
+    "State": false,
+    "KeyBind": "NONE"
+  },
+  "PostProcessing": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Blur": true,
+    "BlurIterations": 2.0,
+    "BlurOffset": 3.0,
+    "Bloom": true,
+    "BloomIterations": 3.0,
+    "BloomOffset": 1.0,
+    "BloomRed": 0.0,
+    "BloomGreen": 0.0,
+    "BloomBlue": 0.0
+  },
+  "Scaffold": {
+    "State": false,
+    "KeyBind": "G",
+    "SameY": "None",
+    "Count": true
+  },
+  "Spammer": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Text": "Extend on the top",
+    "WaterMark": true,
+    "WaterMarkText": "Extend",
+    "PreFix": true,
+    "PreFixText": "@",
+    "RandomSuffix": true,
+    "Delay": 3000.0
+  },
+  "Speed": {
+    "State": false,
+    "KeyBind": "V",
+    "Mode": "DCJ",
+    "Vanilla-Speed": 0.4,
+    "Vanilla-Jump": true,
+    "HypixelMode": "GroundStrafe",
+    "Matrix-Sneak": false,
+    "Matrix-Jump": true,
+    "Grim-BoostSpeed": 0.08
+  },
+  "SpeedMine": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Mode": "Vanilla",
+    "Speed": 10.0
+  },
+  "Sprint": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Legit": true
+  },
+  "Stuck": {
+    "State": false,
+    "KeyBind": "NONE"
+  },
+  "Target": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Player": true,
+    "Animal": true,
+    "Mob": true,
+    "Invisible": false,
+    "Dead": false
+  },
+  "TargetStrafe": {
+    "State": false,
+    "KeyBind": "NONE"
+  },
+  "TeleportAura": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Range": 20.0,
+    "CPS": 10.0
+  },
+  "Test": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Mouse": false,
+    "DrawDebug": true
+  },
+  "ThrowableAura": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Range": 10.0,
+    "Delay": 1.0,
+    "Number": 1.0,
+    "SwitchTargetDelay": 100.0,
+    "FOV": 90.0
+  },
+  "Timer": {
+    "State": false,
+    "KeyBind": "NONE",
+    "TimerSpeed": 1.0
+  },
+  "Velocity": {
+    "State": true,
+    "KeyBind": "NONE",
+    "Mode": "Normal",
+    "Horizontal": 0.0,
+    "Vertical": 0.0,
+    "NoExplosion": true,
+    "C02AmountValue": 4.0,
+    "ReduceTimes": 1.0,
+    "OnlyWhileMoving": false,
+    "Debug": false,
+    "ReverseMotion": 0.2,
+    "NoXZWhenMoving": true,
+    "Strafe": true,
+    "StrafeOffGroundTicks": 4.0
+  },
+  "XRay": {
+    "State": false,
+    "KeyBind": "X"
+  }
+}
