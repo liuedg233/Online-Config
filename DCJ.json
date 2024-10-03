@@ -1,6 +1,6 @@
 {
-  "Last updated": "2024.09.28",
-  "Client Version": "1.1 2024-09-28 11:06:23",
+  "Last updated": "2024.10.03",
+  "Client Version": "1.1 2024-10-03 20:46:38",
   "Ambience": {
     "State": true,
     "KeyBind": "NONE",
@@ -11,10 +11,10 @@
   "Animation": {
     "State": true,
     "KeyBind": "NONE",
-    "BlockAnimation": "Extend",
     "FakeNoSwing": false,
+    "BlockAnimation": "Extend",
     "SwingAnimation": true,
-    "SwingSpeed": -49.0
+    "SwingSpeed": 1.0
   },
   "AntiAFK": {
     "State": false,
@@ -36,6 +36,13 @@
     "NoSlow": true,
     "Speed": true,
     "GroundSpoof": true
+  },
+  "AntiVoid": {
+    "State": false,
+    "KeyBind": "NONE",
+    "MaxFallDistance": 5.0,
+    "Mode": "Packet",
+    "AutoPearl": true
   },
   "ArmorBreaker": {
     "State": false,
@@ -140,8 +147,7 @@
     "Grim-BadPacketsA": false,
     "Grim-BadPacketsF": false,
     "Grim-FakePing": false,
-    "Vulcan": false,
-    "Vulcan-Sprint": false
+    "MatrixFlag": true
   },
   "ESP": {
     "State": true,
@@ -186,6 +192,7 @@
     "Matrix-MotionY": 9.64,
     "Matrix-Ticks": 20.0,
     "Matrix-HurtTime": 8.0,
+    "Matrix-getBowDamage": true,
     "VanillaKickBypass": false
   },
   "FPSBoost": {
@@ -210,9 +217,10 @@
     "DCJ-Height": 5.0
   },
   "HitEffect": {
-    "State": false,
+    "State": true,
     "KeyBind": "NONE",
-    "HitSound": true,
+    "Best迷你世界KillSound": true,
+    "HitSound": false,
     "HitSoundFrequency": 1.0
   },
   "HUD": {
@@ -226,20 +234,16 @@
     "ModuleList-BackgroundAlpha": 40.0,
     "ModuleList-X-Offset": 0.0,
     "ModuleList-YOffset": 0.0,
-    "ModuleList-Color": "Rainbow",
-    "ModuleList-Red": 255.0,
+    "ModuleList-Color": "Fade",
+    "ModuleList-Red": 201.0,
     "ModuleList-Green": 255.0,
     "ModuleList-Blue": 255.0,
     "WaterMark": true,
-    "WaterMark-Mode": "Normal",
+    "WaterMark-Mode": "NeverLoseNew",
     "TargetHUD": true,
     "TargetHUD-DisplaysWinInformation": true,
     "ToggleSound": "Custom",
     "PotionHUD": true
-  },
-  "IGC": {
-    "State": false,
-    "KeyBind": "NONE"
   },
   "InventoryManager": {
     "State": false,
@@ -253,11 +257,18 @@
     "Slot 6": "Shovel",
     "Slot 7": "EnderPearl",
     "Slot 8": "WaterBucket",
-    "Slot 9": "Food"
+    "Slot 9": "Food",
+    "InvOpen": false,
+    "WhenNotMoving": true
   },
   "InventorySync": {
     "State": true,
     "KeyBind": "NONE"
+  },
+  "IRC": {
+    "State": true,
+    "KeyBind": "NONE",
+    "PreFix": "#"
   },
   "ItemPhysics": {
     "State": true,
@@ -278,17 +289,17 @@
     "SwitchDelayRange": 1.0,
     "AttackRange": 8.0,
     "BlockRange": 10.0,
-    "AttackDelay": 1.0,
+    "AttackDelay": 75.0,
     "AttackTiming": "HvH",
     "SortMode": "Distance",
     "AutoBlock": true,
     "AutoBlockMode": "PressKey",
     "RotationMode": "None",
     "SmoothRotationSpeed": 10.0,
-    "RandomRotationOffset": true,
     "MoveFix": "None",
-    "MoveFix-Look": false,
-    "Circle": true,
+    "Test": false,
+    "NoInvAttack": false,
+    "Circle": false,
     "Circle-Accuracy": 30.0
   },
   "LongJump": {
@@ -300,10 +311,18 @@
     "Matrix-Silent": true,
     "Matrix-BypassMode": "Motion"
   },
+  "MiddleClickFriend": {
+    "State": false,
+    "KeyBind": "NONE"
+  },
   "MotionBlur": {
     "State": true,
     "KeyBind": "NONE",
     "Amount": 1.0
+  },
+  "NameTag": {
+    "State": false,
+    "KeyBind": "NONE"
   },
   "NoFall": {
     "State": true,
@@ -353,11 +372,23 @@
     "BloomGreen": 0.0,
     "BloomBlue": 0.0
   },
+  "RageBot": {
+    "State": false,
+    "KeyBind": "NONE",
+    "Skeletal": true
+  },
   "Scaffold": {
     "State": false,
     "KeyBind": "G",
-    "SameY": "None",
-    "Count": true
+    "SprintMoveMode": "Normal",
+    "Normal-OnGroundSprint": true,
+    "Normal-OffGroundSprint": true,
+    "TowerMoveMode": "NCP",
+    "SameYMode": "WhenSpeed",
+    "SwingMode": "None",
+    "MoveFix": false,
+    "Count": true,
+    "BlockCountAlert": false
   },
   "Spammer": {
     "State": false,
@@ -403,11 +434,17 @@
     "Animal": true,
     "Mob": true,
     "Invisible": false,
-    "Dead": false
+    "Dead": false,
+    "Friend": true,
+    "Teams": true,
+    "Teams-ArmorColor": true,
+    "Teams-Color": true,
+    "Teams-ScoreboardTeam": true
   },
   "TargetStrafe": {
-    "State": false,
-    "KeyBind": "NONE"
+    "State": true,
+    "KeyBind": "NONE",
+    "Range": 2.3
   },
   "TeleportAura": {
     "State": false,
@@ -419,7 +456,7 @@
     "State": false,
     "KeyBind": "NONE",
     "Mouse": false,
-    "DrawDebug": true
+    "DrawDebug": false
   },
   "ThrowableAura": {
     "State": false,
